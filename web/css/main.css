@@ -1,0 +1,26 @@
+body {
+  font-size: 100%;
+}
+h1,
+h2 {
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .header-nav {
+    display: inline-block;
+  }
+}
+p {
+  width: 100%;
+  float: left;
+}
+@media screen and (min-width: 768px) {
+  p {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  p {
+    width: 25%;
+  }
+}
