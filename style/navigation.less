@@ -1,4 +1,25 @@
+.header-section {
+  position: fixed;
+  top:0;
+  .full-width(1);
+  background-color: @blue;
 
+  .header-nav {
+    li {
+      a {
+        color: @white;
+        .box-padding(25px, 10px);
+        .font-style(16px, 700);
+      }
+    }
+  }
+}
+
+.footer-section {
+  position: absolute;
+  bottom: 0;
+  .full-width(1);
+}
 
 @media screen and (min-width:768px) {
   .header-nav {

@@ -1,4 +1,9 @@
 {
+  "name": "static-site-bolierplate",
+  "version": "1.0.0",
+  "description": "A simple static site boilerplate project",
+  "author": "Ruchi Jain",
+  "license": "MIT",
   "dependencies": {
     "assemble": "~0.4.0",
     "grunt": "~0.4.1",

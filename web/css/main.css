@@ -5,10 +5,38 @@ h1,
 h2 {
   font-size: 20px;
 }
+.header-section {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: left;
+  background-color: #29B6E6;
+}
+.header-section .header-nav li a {
+  color: #FFFFFF;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  float: left;
+}
 @media screen and (min-width: 768px) {
   .header-nav {
     display: inline-block;
   }
+}
+.main-section {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  float: left;
 }
 p {
   width: 100%;
